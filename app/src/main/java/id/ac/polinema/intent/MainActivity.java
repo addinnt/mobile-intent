@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
     public void handleExit(View view) {
         finish();
     }
+
+    public void handleBundle(View view) {
+        Intent intent = new Intent(this, BundleActivity.class);
+        startActivity(intent);
+    }
 }
