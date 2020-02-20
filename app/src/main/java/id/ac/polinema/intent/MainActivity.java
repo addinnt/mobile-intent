@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, BundleActivity.class);
         startActivity(intent);
     }
+
+    public void handleParcelable(View view) {
+        Intent intent = new Intent(this, ParcelableActivity.class);
+        startActivity(intent);
+    }
 }

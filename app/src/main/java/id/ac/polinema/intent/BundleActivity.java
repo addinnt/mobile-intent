@@ -17,8 +17,6 @@ public class BundleActivity extends AppCompatActivity {
     private EditText ageInput;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
